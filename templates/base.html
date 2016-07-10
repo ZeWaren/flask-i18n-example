@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <title>Flask i18n example</title>
+  <meta name="description" content="Flask i18n example">
+  <meta name="author" content="Erwan Martin">
+  <!--<link rel="gettext" type="application/json" href="{{ url_for('static', filename='translations/fr.json') }}"> -->
+  <link rel="gettext" type="application/x-po" href="{{ url_for('static', filename='translations/fr.po') }}">
+
+</head>
+
+<body>
+  {% block body %}{% endblock %}
+
+  <script type="text/javascript" src="{{ url_for('static', filename='js/Gettext.js') }}"></script>
+  <script type="application/javascript" src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>

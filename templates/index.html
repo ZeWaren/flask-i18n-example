@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <h1>Flask i18n example</h1>
+
+    <h2>Text translated in python</h2>
+    {{ some_text }}<br />
+    <br />
+    {{ best_part }}<br />
+    <br />
+    {{ singular }}<br />
+    <br />
+    {{ plural }}<br />
+
+    <h2>Text translated in the template</h2>
+    {{ _("I am also a sausage.") }} <br />
+    <br />
+    {{ _("%(language1)s is good, but %(language2)s is more fun", language1='Python', language2='Erlang') }}<br />
+    <br />
+    {{ ngettext('I signed one lease in the last two years.', 'I signed %(num)d leases in the last two years.', 1) }}<br />
+    <br />
+    {{ ngettext('I signed one lease in the last two years.', 'I signed %(num)d leases in the last two years.', 8) }}<br />
+
+    <h2>Text translated in javascript</h2>
+    <div id="fill_me"></div>
+{% endblock %}
