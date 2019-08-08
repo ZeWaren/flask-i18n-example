@@ -53,7 +53,7 @@ Compile the translations:
 
 Get `Gettext.js` from and add it to the project: [https://sourceforge.net/projects/jsgettext.berlios/](https://sourceforge.net/projects/jsgettext.berlios/)
 
-See file `statis/js/scripts.js` to see how to use it.
+See file `static/js/scripts.js` to see how to use it.
 
 ### Use the PO/MO files
 
