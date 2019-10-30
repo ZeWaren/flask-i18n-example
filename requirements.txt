@@ -11,5 +11,5 @@ py==1.4.31
 pytest==2.9.2
 pytz==2016.4
 simplejson==3.8.2
-Werkzeug==0.11.10
+Werkzeug==0.15.3
 wheel==0.26.0
