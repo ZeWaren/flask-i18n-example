@@ -3,7 +3,7 @@ click==6.6
 Flask==1.0
 Flask-Babel==0.11.1
 itsdangerous==0.24
-Jinja2==2.8
+Jinja2==2.11.3
 MarkupSafe==0.23
 pojson==0.7
 polib==1.0.7
