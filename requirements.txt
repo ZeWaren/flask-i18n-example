@@ -7,7 +7,7 @@ Jinja2==2.8
 MarkupSafe==0.23
 pojson==0.7
 polib==1.0.7
-py==1.4.31
+py==1.10.0
 pytest==2.9.2
 pytz==2016.4
 simplejson==3.8.2
